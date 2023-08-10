@@ -1,4 +1,4 @@
-name: 'Sam Jackson Greeter'
+name: 'Knugen Greeter'
 description: 'An action to greet people who interact with the repo with a gif of Samuel L. Jackson'
 inputs:
   message:
