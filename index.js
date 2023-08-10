@@ -5,11 +5,11 @@ const core = require("@actions/core")
 const { Octokit } = require("@octokit/action");
 
 let gifURLs = [
-    'https://tenor.com/rvTP.gif', // knugen caught smoking
-    'https://tenor.com/rvTs.gif', // silly knugen
-    'https://tenor.com/82UI.gif', // nee jag tror inte det faktiskt
-    'https://tenor.com/rvTP.gif',
-    'https://tenor.com/rvTP.gif'
+    'https://media.tenor.com/LQu99AFt1VYAAAAd/carl-xvi.gif', // knugen caught smoking
+    'https://media.tenor.com/TgoLEOXPPlcAAAAC/carl-xvi.gif', // silly knugen
+    'https://media.tenor.com/EDKmiAqaNAkAAAAd/kungen-swedish-king.gif', // nee jag tror inte det faktiskt
+    'https://media.tenor.com/LQu99AFt1VYAAAAd/carl-xvi.gif',
+    'https://media.tenor.com/LQu99AFt1VYAAAAd/carl-xvi.gif'
 ]
 
 async function runMain(){
