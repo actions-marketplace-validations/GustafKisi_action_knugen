@@ -1,7 +1,7 @@
 # Action Knugen
  
 
-Hail the Knug
+All hail Knugen
 
  ## Usage
 
