@@ -1,0 +1,28 @@
+on:
+  issue_comment:
+    types: [created, deleted]
+
+jobs:
+  pr_commented:
+    # This job only runs for pull request comments
+    name: PR comment
+    if: ${{ github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action_knugen@1.0
+        with:
+          message: "Welcome to Samuel Log Jackson. I hear you are having a problem? Don't worry, we are assembling a special team to tackle your issue. We're calling it the Avenger Initative."
+          token: ${{secrets.GITHUB_TOKEN}}
+
+  issue_commented:
+    # This job only runs for issue comments
+    name: Issue comment
+    if: ${{ !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action_knugen@1.0
+        with:
+          message: "Welcome to Samuel Log Jackson. I hear you are having a problem? Don't worry, we are assembling a special team to tackle your issue. We're calling it the Avenger Initative."
+          token: ${{secrets.GITHUB_TOKEN}}
+            
+          
