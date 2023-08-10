@@ -1,16 +1,16 @@
 name: 'Knugen Greeter'
-description: 'An action to greet people who interact with the repo with a gif of Samuel L. Jackson'
+description: 'An action to greet people who interact with the repo with a gif of Knugen'
 inputs:
   message:
-    description: 'Message displayed along side the Samuel L Jackson gif'
+    description: 'Message displayed along side the Knugen gif'
     required: true
-    default: 'You need some Sam Jackson in your life'
+    default: 'You need some Knugen in your life'
   token:
     description: 'Github secret token'
     required: true
 branding:
   icon: mic
-  color: blue
+  color: yellow
 author: lob
 runs:
   using: 'node12'
